@@ -6,14 +6,10 @@ class Article {
     this.expandButton = this.domElement.querySelector(".expandButton");    
     this.expandButton.textContent = "expand";
     this.expandButton.addEventListener("click", () => this.expandArticle());
-
-
   }
 
   expandArticle() {
     this.domElement.classList.toggle("article-open");
-  
-
   }
 }
 
